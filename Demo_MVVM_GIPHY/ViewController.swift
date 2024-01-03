@@ -6,14 +6,31 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
+    
+    private lazy var homeCollectionView: UICollectionView = {
+        let homeCollectionView = UICollectionView()
+        homeCollectionView.collectionViewLayout = UICollectionViewLayout()
+        homeCollectionView.backgroundColor = .blue
+        
+        return homeCollectionView
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        setUp()
     }
 
+    private func setUp() {
+        view.addSubview(homeCollectionView)
+        
+        homeCollectionView.snp.makeConstraints { make in
+            make.top.bottom.left.right.equalTo(view)
+        }
+    }
 
 }
 

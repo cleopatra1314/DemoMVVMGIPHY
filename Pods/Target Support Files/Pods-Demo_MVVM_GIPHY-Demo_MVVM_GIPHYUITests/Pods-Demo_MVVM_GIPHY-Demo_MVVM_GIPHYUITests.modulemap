@@ -1,0 +1,6 @@
+framework module Pods_Demo_MVVM_GIPHY_Demo_MVVM_GIPHYUITests {
+  umbrella header "Pods-Demo_MVVM_GIPHY-Demo_MVVM_GIPHYUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

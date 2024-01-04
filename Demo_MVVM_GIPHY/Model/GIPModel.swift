@@ -14,13 +14,15 @@ struct GIPModel: Codable {
 
 struct GIPItem: Codable {
     let title: String
-    let import_datetime: Date
+    let username: String
+    let importDateTime: String
     let images: Image
-    let user: User
+    let user: User?
     
     enum CodingKeys: String, CodingKey {
         case title
-        case import_datetime = "importDatetime"
+        case username
+        case importDateTime = "import_datetime"
         case images
         case user
     }
@@ -35,17 +37,17 @@ struct OriginalImage: Codable {
 }
 
 struct User: Codable {
-    let avatar_url: URL
+    let avatarUrl: URL
     let description: String
-    let instagram_url: URL
-    let website_url: URL
-    let is_verified: Bool
+    let instagramUrl: String
+    let websiteUrl: String
+    let isVerified: Bool
     
     enum CodingKeys: String, CodingKey {
-        case avatar_url = "avatarUrl"
+        case avatarUrl = "avatar_url"
         case description
-        case instagram_url = "instagramUrl"
-        case website_url = "websiteUrl"
-        case is_verified = "isVerified"
+        case instagramUrl = "instagram_url"
+        case websiteUrl = "website_url"
+        case isVerified = "is_verified"
     }
 }

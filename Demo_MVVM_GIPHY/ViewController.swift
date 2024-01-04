@@ -8,17 +8,22 @@
 import UIKit
 import SnapKit
 
+let fullSize = UIScreen.main.bounds.size
+
 class ViewController: UIViewController {
     
-    private let vm = GIPViewModel()
+    private let vm = GipViewModel()
+    
+//    fileprivate let fullSize = UIScreen.main.bounds.size
     
     private lazy var homeCollectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
-//        layout.itemSize = .init(width: <#T##CGFloat#>, height: <#T##CGFloat#>)
+        layout.scrollDirection = .vertical
+        layout.itemSize = .init(width: fullSize.width, height: 600)
         
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
 //        homeCollectionView.collectionViewLayout = UICollectionViewLayout()
-        cv.backgroundColor = .blue
+        cv.backgroundColor = .lightGray
         cv.dataSource = self
         cv.register(HomeCollectionViewCell.self, forCellWithReuseIdentifier: String(describing: HomeCollectionViewCell.self))
         return cv
@@ -28,6 +33,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         setUp()
+        vm.getGip()
+        vm.delegate = self
     }
 
     private func setUp() {
@@ -42,13 +49,26 @@ class ViewController: UIViewController {
 
 extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        vm.gipData.count
+        print("✨\(vm.gipData.count)")
+        return vm.gipData.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: HomeCollectionViewCell.self), for: indexPath) as? HomeCollectionViewCell else { return UICollectionViewCell() }
         let item = vm.gipData[indexPath.item]
-        cell.
+        cell.item = item
         return cell
     }
+}
+
+extension ViewController: GipViewModelDelegate {
+    func didFinish() {
+        self.homeCollectionView.reloadData()
+    }
+    
+    func didFailure() {
+        
+    }
+    
+    
 }

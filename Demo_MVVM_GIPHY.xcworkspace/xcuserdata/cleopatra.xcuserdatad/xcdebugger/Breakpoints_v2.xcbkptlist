@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5979A36A-436E-4D0D-8D2A-EF0527D6C94C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40327BE2-0E1D-4535-9474-ED632B039D21"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo_MVVM_GIPHY/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "didFinish()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "40327BE2-0E1D-4535-9474-ED632B039D21 - e1b928b4b1e9de35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Demo_MVVM_GIPHY.ViewController.didFinish() -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "40327BE2-0E1D-4535-9474-ED632B039D21 - e1b928b4b1e9de35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Demo_MVVM_GIPHY.ViewController.didFinish() -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "807AB8B2-E5F6-47AE-AEC4-66CACBA847B8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo_MVVM_GIPHY/Networking/GIPViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getGip()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "807AB8B2-E5F6-47AE-AEC4-66CACBA847B8 - 85ca2c26fd34bd55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; () in Demo_MVVM_GIPHY.GipViewModel.getGip() -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "807AB8B2-E5F6-47AE-AEC4-66CACBA847B8 - 5cb80fc5b875c102"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Demo_MVVM_GIPHY.NetworkError) -&gt; () in Demo_MVVM_GIPHY.GipViewModel.getGip() -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6292E528-0B5F-41AC-A161-B920D7432724"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getGIPData(success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6292E528-0B5F-41AC-A161-B920D7432724 - 5c453e4750cab501"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "908">
+               </Location>
+               <Location
+                  uuid = "6292E528-0B5F-41AC-A161-B920D7432724 - 5c453e4750cab2c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "752">
+               </Location>
+               <Location
+                  uuid = "6292E528-0B5F-41AC-A161-B920D7432724 - 5c453e4750cab2e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "728">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D25F8B75-A0EA-4D50-ABF2-3F494556DE70"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getGIPData(success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D25F8B75-A0EA-4D50-ABF2-3F494556DE70 - f9a406b6bad39a5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "D25F8B75-A0EA-4D50-ABF2-3F494556DE70 - f9a406b6bad39a5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "488">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "086D1936-61A4-4245-9020-3847AB3DE34F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "getGIPData(success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "086D1936-61A4-4245-9020-3847AB3DE34F - f9a406b6bad399e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1176">
+               </Location>
+               <Location
+                  uuid = "086D1936-61A4-4245-9020-3847AB3DE34F - 5c453e4750cab3cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "086D1936-61A4-4245-9020-3847AB3DE34F - f9a406b6bad399e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1260">
+               </Location>
+               <Location
+                  uuid = "086D1936-61A4-4245-9020-3847AB3DE34F - f9a406b6bad3998a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1492">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D99F756-6D70-4F43-946C-8D66AE628CB1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getGIPData(success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4D99F756-6D70-4F43-946C-8D66AE628CB1 - 5c453e4750cab3cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "4D99F756-6D70-4F43-946C-8D66AE628CB1 - 5c453e4750cab3cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "4D99F756-6D70-4F43-946C-8D66AE628CB1 - f9a406b6bad3998a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1356">
+               </Location>
+               <Location
+                  uuid = "4D99F756-6D70-4F43-946C-8D66AE628CB1 - 5c453e4750cab3ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "4D99F756-6D70-4F43-946C-8D66AE628CB1 - f9a406b6bad399ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1588">
+               </Location>
+               <Location
+                  uuid = "4D99F756-6D70-4F43-946C-8D66AE628CB1 - 5c453e4750cab209"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D24463EA-C883-462D-B829-60257F5399E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "getGIPData(success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D24463EA-C883-462D-B829-60257F5399E5 - 5c453e4750cab24b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "632">
+               </Location>
+               <Location
+                  uuid = "D24463EA-C883-462D-B829-60257F5399E5 - 5c453e4750cab24b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "688">
+               </Location>
+               <Location
+                  uuid = "D24463EA-C883-462D-B829-60257F5399E5 - 5c453e4750cab24b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1544">
+               </Location>
+               <Location
+                  uuid = "D24463EA-C883-462D-B829-60257F5399E5 - 5c453e4750cab24b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "D24463EA-C883-462D-B829-60257F5399E5 - 5c453e4750cab24b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "608">
+               </Location>
+               <Location
+                  uuid = "D24463EA-C883-462D-B829-60257F5399E5 - 5c453e4750cab26a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "396">
+               </Location>
+               <Location
+                  uuid = "D24463EA-C883-462D-B829-60257F5399E5 - 5c453e4750cab26a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "584">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECAA6736-51A8-4B01-AD89-1E4EE9AFD5BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "getGIPData(success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ECAA6736-51A8-4B01-AD89-1E4EE9AFD5BF - 5c453e4750cab501"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "908">
+               </Location>
+               <Location
+                  uuid = "ECAA6736-51A8-4B01-AD89-1E4EE9AFD5BF - 5c453e4750cab520"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "908">
+               </Location>
+               <Location
+                  uuid = "ECAA6736-51A8-4B01-AD89-1E4EE9AFD5BF - 5c453e4750cab543"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "884">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "986D49BE-13B9-43D9-BD69-8E58A237B6AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "getGIPData(success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "986D49BE-13B9-43D9-BD69-8E58A237B6AB - 5c453e4750cab419"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+               <Location
+                  uuid = "986D49BE-13B9-43D9-BD69-8E58A237B6AB - 5c453e4750cab438"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+               <Location
+                  uuid = "986D49BE-13B9-43D9-BD69-8E58A237B6AB - 5c453e4750cab45b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E840D0B9-4956-41CA-B612-341C5A938265"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "getGIPData(success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E840D0B9-4956-41CA-B612-341C5A938265 - 5c453e4750cab47a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "1376">
+               </Location>
+               <Location
+                  uuid = "E840D0B9-4956-41CA-B612-341C5A938265 - 5c453e4750cab495"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1376">
+               </Location>
+               <Location
+                  uuid = "E840D0B9-4956-41CA-B612-341C5A938265 - 5c453e4750cab4b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "1352">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8218AD5-1051-4F52-A26D-AAB1D6071AE7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "getGIPData(success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C8218AD5-1051-4F52-A26D-AAB1D6071AE7 - 5c453e4750cab438"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "1344">
+               </Location>
+               <Location
+                  uuid = "C8218AD5-1051-4F52-A26D-AAB1D6071AE7 - 5c453e4750cab438"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+               <Location
+                  uuid = "C8218AD5-1051-4F52-A26D-AAB1D6071AE7 - 5c453e4750cab45b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "222270AA-532A-44A4-AE56-9B543ADB6DC5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getGIPData(success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "222270AA-532A-44A4-AE56-9B543ADB6DC5 - 5c453e4750cab3ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "222270AA-532A-44A4-AE56-9B543ADB6DC5 - 5c453e4750cab3ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "222270AA-532A-44A4-AE56-9B543ADB6DC5 - 5c453e4750cab3ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "222270AA-532A-44A4-AE56-9B543ADB6DC5 - 5c453e4750cab209"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "222270AA-532A-44A4-AE56-9B543ADB6DC5 - 5c453e4750cab209"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DCE6FF3-60D7-4776-BFE6-A4383D9965CA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getGIPData(success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1DCE6FF3-60D7-4776-BFE6-A4383D9965CA - 5c453e4750cab209"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "384">
+               </Location>
+               <Location
+                  uuid = "1DCE6FF3-60D7-4776-BFE6-A4383D9965CA - 5c453e4750cab209"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "1DCE6FF3-60D7-4776-BFE6-A4383D9965CA - 5c453e4750cab228"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Demo_MVVM_GIPHY.GipClient.getGIPData(success: (Swift.Array&lt;Demo_MVVM_GIPHY.GIPItem&gt;) -&gt; (), failure: (Demo_MVVM_GIPHY.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Demo_MVVM_GIPHY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cleopatra/Desktop/Demo_MVVM_GIPHY/Demo_MVVM_GIPHY/Networking/GIPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "216">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD7F010B-E2A8-45F1-B84C-0A03D91C4A63"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Demo_MVVM_GIPHY/Networking/GIPViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getGip()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

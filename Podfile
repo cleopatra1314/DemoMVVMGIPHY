@@ -7,6 +7,7 @@ target 'Demo_MVVM_GIPHY' do
 
   # Pods for Demo_MVVM_GIPHY
     pod 'SnapKit', '~> 5.0.0'
+    pod 'SDWebImage', '~> 5.0'
 
   target 'Demo_MVVM_GIPHYTests' do
     inherit! :search_paths

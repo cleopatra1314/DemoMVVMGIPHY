@@ -10,12 +10,18 @@ import SnapKit
 
 class ViewController: UIViewController {
     
+    private let vm = GIPViewModel()
+    
     private lazy var homeCollectionView: UICollectionView = {
-        let homeCollectionView = UICollectionView()
-        homeCollectionView.collectionViewLayout = UICollectionViewLayout()
-        homeCollectionView.backgroundColor = .blue
+        let layout = UICollectionViewFlowLayout()
+//        layout.itemSize = .init(width: <#T##CGFloat#>, height: <#T##CGFloat#>)
         
-        return homeCollectionView
+        let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
+//        homeCollectionView.collectionViewLayout = UICollectionViewLayout()
+        cv.backgroundColor = .blue
+        cv.dataSource = self
+        cv.register(HomeCollectionViewCell.self, forCellWithReuseIdentifier: String(describing: HomeCollectionViewCell.self))
+        return cv
     }()
 
     override func viewDidLoad() {
@@ -34,3 +40,15 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        vm.gipData.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: HomeCollectionViewCell.self), for: indexPath) as? HomeCollectionViewCell else { return UICollectionViewCell() }
+        let item = vm.gipData[indexPath.item]
+        cell.
+        return cell
+    }
+}

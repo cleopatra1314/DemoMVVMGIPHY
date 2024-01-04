@@ -20,6 +20,9 @@
 		C8DC10602B45E3230004AEDA /* Demo_MVVM_GIPHYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC105F2B45E3230004AEDA /* Demo_MVVM_GIPHYUITests.swift */; };
 		C8DC10622B45E3230004AEDA /* Demo_MVVM_GIPHYUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC10612B45E3230004AEDA /* Demo_MVVM_GIPHYUITestsLaunchTests.swift */; };
 		C8DC106F2B45ED1A0004AEDA /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC106E2B45ED1A0004AEDA /* HomeCollectionViewCell.swift */; };
+		C8DC10712B4617120004AEDA /* GIPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC10702B4617120004AEDA /* GIPModel.swift */; };
+		C8DC10732B461DBE0004AEDA /* GIPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC10722B461DBE0004AEDA /* GIPClient.swift */; };
+		C8DC107A2B462BFC0004AEDA /* GIPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DC10792B462BFC0004AEDA /* GIPViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,9 @@
 		C8DC105F2B45E3230004AEDA /* Demo_MVVM_GIPHYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_MVVM_GIPHYUITests.swift; sourceTree = "<group>"; };
 		C8DC10612B45E3230004AEDA /* Demo_MVVM_GIPHYUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_MVVM_GIPHYUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C8DC106E2B45ED1A0004AEDA /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		C8DC10702B4617120004AEDA /* GIPModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIPModel.swift; sourceTree = "<group>"; };
+		C8DC10722B461DBE0004AEDA /* GIPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIPClient.swift; sourceTree = "<group>"; };
+		C8DC10792B462BFC0004AEDA /* GIPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIPViewModel.swift; sourceTree = "<group>"; };
 		E1EAE50745135EE819A79FFB /* Pods-Demo_MVVM_GIPHY-Demo_MVVM_GIPHYUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_MVVM_GIPHY-Demo_MVVM_GIPHYUITests.release.xcconfig"; path = "Target Support Files/Pods-Demo_MVVM_GIPHY-Demo_MVVM_GIPHYUITests/Pods-Demo_MVVM_GIPHY-Demo_MVVM_GIPHYUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,13 +147,13 @@
 		C8DC103D2B45E3220004AEDA /* Demo_MVVM_GIPHY */ = {
 			isa = PBXGroup;
 			children = (
-				C8DC103E2B45E3220004AEDA /* AppDelegate.swift */,
-				C8DC10402B45E3220004AEDA /* SceneDelegate.swift */,
+				C8DC10782B461E3F0004AEDA /* Extension */,
+				C8DC10772B461E2A0004AEDA /* Model */,
+				C8DC10742B461DC80004AEDA /* Networking */,
 				C8DC10422B45E3220004AEDA /* ViewController.swift */,
 				C8DC106E2B45ED1A0004AEDA /* HomeCollectionViewCell.swift */,
-				C8DC10442B45E3220004AEDA /* Main.storyboard */,
-				C8DC10472B45E3230004AEDA /* Assets.xcassets */,
-				C8DC10492B45E3230004AEDA /* LaunchScreen.storyboard */,
+				C8DC10752B461DDF0004AEDA /* Resources */,
+				C8DC10762B461E0C0004AEDA /* Storyboard */,
 				C8DC104C2B45E3230004AEDA /* Info.plist */,
 			);
 			path = Demo_MVVM_GIPHY;
@@ -168,6 +174,49 @@
 				C8DC10612B45E3230004AEDA /* Demo_MVVM_GIPHYUITestsLaunchTests.swift */,
 			);
 			path = Demo_MVVM_GIPHYUITests;
+			sourceTree = "<group>";
+		};
+		C8DC10742B461DC80004AEDA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C8DC10722B461DBE0004AEDA /* GIPClient.swift */,
+				C8DC10792B462BFC0004AEDA /* GIPViewModel.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C8DC10752B461DDF0004AEDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8DC10402B45E3220004AEDA /* SceneDelegate.swift */,
+				C8DC103E2B45E3220004AEDA /* AppDelegate.swift */,
+				C8DC10472B45E3230004AEDA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C8DC10762B461E0C0004AEDA /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C8DC10492B45E3230004AEDA /* LaunchScreen.storyboard */,
+				C8DC10442B45E3220004AEDA /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C8DC10772B461E2A0004AEDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8DC10702B4617120004AEDA /* GIPModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C8DC10782B461E3F0004AEDA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,7 +460,10 @@
 			files = (
 				C8DC10432B45E3220004AEDA /* ViewController.swift in Sources */,
 				C8DC103F2B45E3220004AEDA /* AppDelegate.swift in Sources */,
+				C8DC107A2B462BFC0004AEDA /* GIPViewModel.swift in Sources */,
 				C8DC10412B45E3220004AEDA /* SceneDelegate.swift in Sources */,
+				C8DC10732B461DBE0004AEDA /* GIPClient.swift in Sources */,
+				C8DC10712B4617120004AEDA /* GIPModel.swift in Sources */,
 				C8DC106F2B45ED1A0004AEDA /* HomeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
